@@ -309,7 +309,3 @@ To deploy, pipe the above commands to kubectl apply:
 > kustomize build $OVERLAYS/production |\
 >    kubectl apply -f -
 > ```
-# Hello World
-# Hello World
-# Hello World
-# Hello World
