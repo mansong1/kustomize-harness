@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: the-deployment
+  labels:
+    environment: staging
+  annotations:
+    harness_build_id: <+pipeline.sequenceId>
+spec:
+  replicas: <+serviceVariables.replicaCount>
