@@ -5,3 +5,4 @@ metadata:
 data:
   altGreeting: <+serviceVariables.altGreeting>
   enableRisky: <+serviceVariables.enableRisky>
+  DD_ENV: <+infra.connectorRef>
