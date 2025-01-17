@@ -6,5 +6,6 @@ metadata:
     environment: staging
   annotations:
     harness_build_id: <+pipeline.sequenceId>
+    harness_build_url: <+pipeline.executionUrl>
 spec:
   replicas: <+serviceVariables.replicaCount>
