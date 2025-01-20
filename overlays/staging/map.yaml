@@ -6,4 +6,4 @@ data:
   altGreeting: <+serviceVariables.altGreeting>
   enableRisky: <+serviceVariables.enableRisky>
   DD_ENV: <+infra.connectorRef>
-  Example_Secret: <+secret.getValue("kustomize_secret_example")>
+  Example_Secret: <+secrets.getValue("kustomize_secret_example")>
