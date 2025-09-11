@@ -44,3 +44,9 @@ pipeline:
                 - AllErrors
               action:
                 type: StageRollback
+  variables:
+    - name: mycustomvar
+      type: String
+      description: ""
+      required: false
+      value: test
