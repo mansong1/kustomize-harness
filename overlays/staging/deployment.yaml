@@ -7,5 +7,6 @@ metadata:
   annotations:
     harness_build_id: <+pipeline.sequenceId>
     harness_build_url: <+pipeline.executionUrl>
+    harness_custom_var: <+pipeline.variables.mycustomvar>
 spec:
   replicas: <+serviceVariables.replicaCount>
